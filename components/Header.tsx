@@ -6,7 +6,7 @@ import { Menu, X, Building2 } from 'lucide-react'
 
 const navigation = [
   { name: 'Articles', href: '/articles' },
-  { name: 'Contact', href: 'mailto:info@themodern.estate' },
+  { name: 'Contact', href: 'mailto:hello@roobatech.com' },
 ]
 
 export default function Header() {
