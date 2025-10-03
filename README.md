@@ -2,6 +2,9 @@
 
 A fast, SEO-ready content site for real estate research, focusing on modern housing design, New Jersey real estate practices, financing strategies, and property technology.
 
+**Website**: [themodern.estate](https://themodern.estate)  
+**Author**: The Modern Estate Team
+
 ## Features
 
 - **Modern Design**: Clean, grid-based layout with plenty of white space
