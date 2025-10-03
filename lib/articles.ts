@@ -50,27 +50,27 @@ If you want the **cheapest** and **fastest** path to your **New Jersey real esta
 
 ## 3-Week Fast-Track Timeline (Worked Example)
 
-> **Best start day:** **Friday** (±1 day) so your course exam lands Friday and eligibility can process on **Monday**.  
-> _Note:_ Some scheduling steps depend on provider processes and test-center availability; treat this as a model.
+**Best start day:** **Friday** (±1 day) so your course exam lands Friday and eligibility can process on **Monday**.  
+*Note:* Some scheduling steps depend on provider processes and test-center availability; treat this as a model.
 
 | Day | Activity | Notes |
-|---|---|
+|-----|----------|-------|
 | 1–14 | Complete the online course; take notes as you go | Start Fri if possible; finish National then State content |
 | 15–16 | Take mock exams + the course exam | Aim for Thu/Fri/Sat |
 | 16–20 | Light review of weak spots | Usually **1–2 days** is enough |
 | 18 (Mon) | Register for state exam + schedule fingerprinting | Eligibility typically updates **after** course exam ([process varies, confirm]) |
 | 21 | Take the **state exam** and pass |
 
-> Personal experience: After finishing the 75-hour course (studying ~5 hrs/day for 2 weeks), I waited ~7 days due to availability and passed. With ideal timing, **<3 weeks** is doable.
+**Personal experience:** After finishing the 75-hour course (studying ~5 hrs/day for 2 weeks), I waited ~7 days due to availability and passed. With ideal timing, **<3 weeks** is doable.
 
 ---
 
 ## NJ Cost Breakdown (Minimum Core Fees)
 
-> **Total (example): $405** — verify current fees before you pay.
+**Total (example): $405** — verify current fees before you pay.
 
 | Cost | Amount | Notes |
-|---|---:|---|
+|------|--------|-------|
 | Online Course | $139 | "Course only" plan; search for ~$10 promo codes |
 | PSI NJ Exam | $38 | You can register once eligibility is sent to PSI ([process varies by provider]) |
 | Fingerprint/Background | $68 | Schedule right after the course exam to save time |
@@ -86,7 +86,7 @@ I chose **RealEstateU basic plan** because it was the cheapest that met my crite
 2. **Self-paced** — control speed and schedule.  
 3. **Text provided** — enables fast note-taking and review.
 
-> You **don't** need premium bundles (study guides, textbooks, extra exam prep) to pass. The base course content + smart review is enough. Replace paid "prep" with your own notes and targeted quizzing.
+You **don't** need premium bundles (study guides, textbooks, extra exam prep) to pass. The base course content + smart review is enough. Replace paid "prep" with your own notes and targeted quizzing.
 
 ---
 
@@ -120,7 +120,7 @@ I chose **RealEstateU basic plan** because it was the cheapest that met my crite
 - **Info density** is low vs timer length—hence the "quiz during timer" strategy.
 - **Timers** can be glitchy.
 
-> Treat this as **provider-specific personal experience in 2025**; verify details for your provider.
+Treat this as **provider-specific personal experience in 2025**; verify details for your provider.
 
 ---
 
@@ -135,7 +135,7 @@ I chose **RealEstateU basic plan** because it was the cheapest that met my crite
 3. During long timers, keep quizzing and annotating your notes.
 4. For any tricky quiz items (even if correct), **screenshot** and store in a "Tricky" section.
 
-> Result: A **single, well-organized notes doc** that cuts review time and boosts recall.
+Result: A **single, well-organized notes doc** that cuts review time and boosts recall.
 
 **Ethical use reminder:** Don't paste proprietary content outside fair use. Summarize concepts, not whole copyrighted pages, and keep it for **personal study**.
 
@@ -190,7 +190,7 @@ Your organized notes make this step fast.
 - The rest are **straightforward** if you studied well.  
 - My exam displayed **~130 questions** (not 110)—this can vary; follow the official instructions on test day.
 
-> Even if you forfeit ~10–12% and miss another ~5%, you still clear **70%+** comfortably—**passing is very achievable**.
+Even if you forfeit ~10–12% and miss another ~5%, you still clear **70%+** comfortably—**passing is very achievable**.
 
 ---
 
@@ -218,13 +218,6 @@ Plan around **$405** for core fees (course, exam, fingerprinting, license). **Ve
 
 ### How many hours should I study per day?
 About **5 hours/day for ~2 weeks** worked for me. Adjust for your pace and background.
-
----
-
-## Related resources (internal)
-- **[Real estate exam study tactics that actually work](/blog/real-estate-exam-study-tactics)**  
-- **[My note-taking system with ChatGPT](/blog/chatgpt-study-notes-system)**  
-- **[From course to closing: your first 90 days in real estate](/blog/first-90-days-real-estate)**
 
 ---
 
