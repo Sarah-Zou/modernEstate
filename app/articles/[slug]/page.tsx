@@ -27,6 +27,21 @@ export async function generateMetadata({ params }: ArticlePageProps): Promise<Me
     }
   }
 
+  // Extract images from article content for SEO
+  const contentImages = article.content.match(/!\[([^\]]*)\]\(([^)]+)\)/g) || []
+  const imageUrls = contentImages.map(img => {
+    const match = img.match(/!\[([^\]]*)\]\(([^)]+)\)/)
+    return match ? match[2] : null
+  }).filter(Boolean)
+
+  // Combine hero image with content images
+  const allImages = [article.image, ...imageUrls].map((url, index) => ({
+    url: url.startsWith('/') ? `https://themodern.estate${url}` : url,
+    width: 800,
+    height: index === 0 ? 600 : 400,
+    alt: index === 0 ? article.title : `Article illustration ${index}`,
+  }))
+
   return {
     title: article.title,
     description: article.excerpt,
@@ -35,20 +50,16 @@ export async function generateMetadata({ params }: ArticlePageProps): Promise<Me
     openGraph: {
       title: article.title,
       description: article.excerpt,
-      images: [
-        {
-          url: article.image,
-          width: 800,
-          height: 600,
-          alt: article.title,
-        },
-      ],
+      type: 'article',
+      publishedTime: article.publishedAt,
+      authors: [article.author],
+      images: allImages,
     },
     twitter: {
       card: 'summary_large_image',
       title: article.title,
       description: article.excerpt,
-      images: [article.image],
+      images: allImages.map(img => img.url),
     },
   }
 }
@@ -61,8 +72,47 @@ export default function ArticlePage({ params }: ArticlePageProps) {
   }
 
   return (
-    <div className="min-h-screen bg-porcelain">
-      <div className="container-custom py-8">
+    <>
+      {/* Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ 
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": article.title,
+            "description": article.excerpt,
+            "image": [
+              article.image,
+              ...(article.content.match(/!\[([^\]]*)\]\(([^)]+)\)/g) || []).map(img => {
+                const match = img.match(/!\[([^\]]*)\]\(([^)]+)\)/)
+                return match ? match[2] : null
+              }).filter(Boolean)
+            ],
+            "author": {
+              "@type": "Person",
+              "name": article.author
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "The Modern Estate",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://themodern.estate/logo.png"
+              }
+            },
+            "datePublished": article.publishedAt,
+            "dateModified": article.publishedAt,
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": `https://themodern.estate/articles/${article.slug}`
+            }
+          })
+        }}
+      />
+      
+      <div className="min-h-screen bg-porcelain">
+        <div className="container-custom py-8">
         {/* Back Button */}
         <Link
           href="/articles"
@@ -134,6 +184,7 @@ export default function ArticlePage({ params }: ArticlePageProps) {
                   .replace(/^\d+\. (.*$)/gim, '<li class="mb-2">$1</li>')
                   .replace(/\*\*(.*?)\*\*/g, '<strong class="font-semibold text-near-black">$1</strong>')
                   .replace(/\*(.*?)\*/g, '<em class="italic">$1</em>')
+                  .replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '<img src="$2" alt="$1" class="w-full h-auto rounded-lg my-6" loading="lazy" decoding="async" itemprop="image" />')
                   .replace(/\n\n/g, '</p><p class="mb-4">')
                   .replace(/^(?!<[h|l])/gm, '<p class="mb-4">')
                   .replace(/<p class="mb-4"><\/p>/g, '')
@@ -175,6 +226,7 @@ export default function ArticlePage({ params }: ArticlePageProps) {
         </article>
       </div>
     </div>
+    </>
   )
 }
 

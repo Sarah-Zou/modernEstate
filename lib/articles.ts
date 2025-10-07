@@ -53,13 +53,7 @@ If you want the **cheapest** and **fastest** path to your **New Jersey real esta
 **Best start day:** **Friday** (±1 day) so your course exam lands Friday and eligibility can process on **Monday**.  
 *Note:* Some scheduling steps depend on provider processes and test-center availability; treat this as a model.
 
-| Day | Activity | Notes |
-|-----|----------|-------|
-| 1–14 | Complete the online course; take notes as you go | Start Fri if possible; finish National then State content |
-| 15–16 | Take mock exams + the course exam | Aim for Thu/Fri/Sat |
-| 16–20 | Light review of weak spots | Usually **1–2 days** is enough |
-| 18 (Mon) | Register for state exam + schedule fingerprinting | Eligibility typically updates **after** course exam ([process varies, confirm]) |
-| 21 | Take the **state exam** and pass |
+![3-Week Fast-Track Timeline](/images/articles/cheapest-fastest-pass-real-estate-salesperson-exam-nj/3-week_fast_track_timeline.png)
 
 **Personal experience:** After finishing the 75-hour course (studying ~5 hrs/day for 2 weeks), I waited ~7 days due to availability and passed. With ideal timing, **<3 weeks** is doable.
 
@@ -69,13 +63,7 @@ If you want the **cheapest** and **fastest** path to your **New Jersey real esta
 
 **Total (example): $405** — verify current fees before you pay.
 
-| Cost | Amount | Notes |
-|------|--------|-------|
-| Online Course | $139 | "Course only" plan; search for ~$10 promo codes |
-| PSI NJ Exam | $38 | You can register once eligibility is sent to PSI ([process varies by provider]) |
-| Fingerprint/Background | $68 | Schedule right after the course exam to save time |
-| License Fee | $160 | Typically paid via your brokerage |
-| **TOTAL** | **$405** | Example based on my 2025 experience; fees change |
+![NJ Cost Breakdown](/images/articles/cheapest-fastest-pass-real-estate-salesperson-exam-nj/cost_breakdown.png)
 
 I chose **RealEstateU basic plan** because it was the cheapest that met my criteria: **online**, **self-paced**, **full text** (so I could take notes). Any provider meeting those criteria works.
 
