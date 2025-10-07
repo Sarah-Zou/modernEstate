@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: ArticlePageProps): Promise<Me
   const imageUrls = contentImages.map(img => {
     const match = img.match(/!\[([^\]]*)\]\(([^)]+)\)/)
     return match ? match[2] : null
-  }).filter(Boolean)
+  }).filter((url): url is string => url !== null)
 
   // Combine hero image with content images
   const allImages = [article.image, ...imageUrls].map((url, index) => ({
@@ -87,7 +87,7 @@ export default function ArticlePage({ params }: ArticlePageProps) {
               ...(article.content.match(/!\[([^\]]*)\]\(([^)]+)\)/g) || []).map(img => {
                 const match = img.match(/!\[([^\]]*)\]\(([^)]+)\)/)
                 return match ? match[2] : null
-              }).filter(Boolean)
+              }).filter((url): url is string => url !== null)
             ],
             "author": {
               "@type": "Person",
